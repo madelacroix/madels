@@ -1,0 +1,9 @@
+/* Webfont: Rasfire-SemiBold */@font-face {
+    font-family: 'RasfireSemBd';
+    src: url('Rasfire-SemiBold.woff2') format('woff2'), /* Modern Browsers */
+         url('Rasfire-SemiBold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

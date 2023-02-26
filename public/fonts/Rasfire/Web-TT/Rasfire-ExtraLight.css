@@ -1,0 +1,11 @@
+/* Webfont: Rasfire-ExtraLight */@font-face {
+    font-family: 'RasfireExtLt';
+    src: url('Rasfire-ExtraLight.eot'); /* IE9 Compat Modes */
+    src: url('Rasfire-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Rasfire-ExtraLight.woff') format('woff'), /* Modern Browsers */
+         url('Rasfire-ExtraLight.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

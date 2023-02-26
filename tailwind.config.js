@@ -1,0 +1,30 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./sections/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+     colors: {
+      'grey-brown': '#66615C',
+      'off-white': '#FFF8F2',
+      'almost-black': '#363330',
+      'black':'#1D1B19',
+      'dirt-brown': '#52483F',
+     },
+     
+     backgroundImage: {
+      'vinorepo': "url('../public/img/vinorepo.png')",
+      'neubrandz': "url('../public/img/neubrandz.jpg')",
+     }
+    },
+
+    fontFamily: {
+      rasfire: ['Rasfire', 'serif'],
+      thasadith: ['Thasadith', 'sans-serif']
+    }
+  },
+  plugins: [],
+}
