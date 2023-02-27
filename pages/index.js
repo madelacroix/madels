@@ -1,4 +1,4 @@
-import CTA from "@/sections/home/CTA";
+import CTA from "@/components/layout/CTA";
 import Hero from "@/sections/home/hero.js";
 import Intro from "@/sections/home/intro";
 import Portfolio from "@/sections/home/portfolio";

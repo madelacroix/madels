@@ -22,7 +22,7 @@ function Header() {
                         ? 'active'
                         : 'inactive'
                 }>
-                    <Link href="/">
+                    <Link href="/about">
                         about
                     </Link>
                 </h2>

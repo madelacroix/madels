@@ -31,6 +31,18 @@ body {
   @apply transition ease-in-out hover:-translate-y-1 hover:translate-x-[0.1vw];
 }
 
+.about-pitch-div {
+  @apply w-[22vw] text-off-white;
+}
+
+.about-pitch-num {
+  @apply font-rasfire text-[8vh];
+}
+
+.about-pitch-p {
+  @apply font-thasadith text-[2vh] tracking-[0.4px];
+}
+
 .portfolio-item {
   @apply lg:w-[40vw] sm:w-[44vw] xxs:m-[2rem] m-[1rem] lg:h-[45vh] sm:h-[35vh] h-[40vh] text-center grid grid-rows-3 rounded-xl drop-shadow-lg;
 }
