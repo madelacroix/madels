@@ -19,6 +19,10 @@ body {
   background-color: #E0D7CE;
 }
 
+.nav-text {
+  @apply border-b-[0.2px] md:border-off-white border-almost-black w-screen hover:bg-off-white md:text-off-white text-almost-black hover:text-almost-black hover:bg-opacity-70 p-[2rem] font-thasadith uppercase max-xs:bg-[#E0D7CE] max-xxs:text-[1.8vh];
+}
+
 .active {
   @apply border-b-off-white border-b ml-auto pb-[0.5vh] transition ease-in-out hover:-translate-y-[0.1vh];
 }
@@ -27,6 +31,10 @@ body {
   @apply transition ease-in-out hover:-translate-y-1 hover:translate-x-[0.1vw];
 }
 
+.portfolio-item {
+  @apply lg:w-[40vw] sm:w-[44vw] xxs:m-[2rem] m-[1rem] lg:h-[45vh] sm:h-[35vh] h-[40vh] text-center grid grid-rows-3 rounded-xl drop-shadow-lg;
+}
+
 .cta-contact {
-  @apply flex gap-2 font-thin tracking-[0.5px] text-[1.6vh];
+  @apply flex sm:gap-2 gap-1 font-thin tracking-[0.5px] sm:text-[1.6vh] text-[1.5vh];
 }

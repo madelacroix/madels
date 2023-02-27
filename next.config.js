@@ -6,6 +6,12 @@
 // module.exports = nextConfig
 
 module.exports = {
+  images: {
+    // loader: 'akamai',
+    // path: '/',
+    // deviceSizes: [360, 480, 576, 768, 1200, 1920, 2048, 3840],
+    unoptimized: true,
+  },
 
   webpack(config) {
     config.module.rules.push({
