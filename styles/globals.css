@@ -47,6 +47,26 @@ body {
   @apply lg:w-[40vw] sm:w-[44vw] xxs:m-[2rem] m-[1rem] lg:h-[45vh] sm:h-[35vh] h-[40vh] text-center grid grid-rows-3 rounded-xl drop-shadow-lg;
 }
 
+.project-div {
+  @apply h-[50vh] rounded-3xl px-[5rem] pt-[6rem] space-y-5;
+}
+
+.project-div-header {
+  @apply -space-y-4;
+}
+
+.project-div-subheading {
+  @apply font-thasadith text-[2vh] uppercase tracking-[1px];
+}
+
+.project-div-title {
+  @apply font-rasfire text-[6vh] tracking-[1px];
+}
+
+.project-div-p {
+  @apply font-thasadith text-[1.8vh] w-[30vw] space-y-5;
+}
+
 .cta-contact {
   @apply flex sm:gap-2 gap-1 font-thin tracking-[0.5px] sm:text-[1.6vh] text-[1.5vh];
 }

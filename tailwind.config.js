@@ -17,7 +17,7 @@ module.exports = {
      
      backgroundImage: {
       'vinorepo': "url('../public/img/vinorepo.png')",
-      'neubrandz': "url('../public/img/neubrandz.jpg')",
+      'neubrandz': "url('../public/img/neubrandz.png')",
       'about-slogan': "url('../public/img/about-bg.png')",
      }
     },

@@ -31,7 +31,7 @@ function Header() {
                         ? 'active'
                         : 'inactive'
                 }>
-                    <Link href="/">
+                    <Link href="/projects">
                         projects
                     </Link>
                 </h2>
@@ -74,16 +74,16 @@ function Header() {
                     <div id="mobile-menu" className="md:hidden pt-[2rem] font-dosis text-[2.2vh] tracking-[1px]">
                         <div ref={ref} className="flex flex-col">
                             <Link
-                                href="/"
-                                className="nav-text"
-                            >
-                                Home
-                            </Link>
-                            <Link
                                 href="/about"
                                 className="nav-text"
                             >
                                 About
+                            </Link>
+                            <Link
+                                href="/projects"
+                                className="nav-text"
+                            >
+                                Projects
                             </Link>
                             <Link
                                 href="/contact"
