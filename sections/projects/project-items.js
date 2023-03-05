@@ -1,6 +1,6 @@
 function ProjectsItems() {
     return (        
-            <div className="xxs:pt-[25vh] pt-[18vh] pb-[10vh] px-[5vw] text-off-white xs:space-y-16 space-y-10">
+            <div className="lm:pt-[25vh] pt-[18vh] sm:pb-[10vh] px-[5vw] text-off-white xs:space-y-16 space-y-10">
                 <div className="bg-vinorepo bg-cover bg-center project-div">
                     <div className="project-div-header">
                         <h2 className="project-div-subheading">Project One</h2>

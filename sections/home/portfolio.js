@@ -5,7 +5,7 @@ function Portfolio() {
                 <h1>Projects &</h1>
                 <h1>Portfolio</h1>
             </div>
-            <div className="my-[5vw] sm:flex sm:justify-evenly grid grid-cols-1 text-[4vh] tracking-[0.5px]">
+            <div className="my-[5vw] md:flex md:justify-evenly grid grid-cols-1 text-[4vh] tracking-[0.5px]">
                 <div className="portfolio-item bg-vinorepo bg-cover">
                     <h2 className="row-start-2 my-auto">vinorepo</h2>
                 </div>

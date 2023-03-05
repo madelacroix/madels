@@ -25,7 +25,7 @@ function Pitch() {
                     <Image src={AboutTwo} width={305} height={420} alt="image" className="rounded-3xl ml-[12vw] mt-[25vh] md:block hidden" />
                     <div className="text-off-white md:text-right md:pr-0 sm:pr-[25vw] xs:pr-[15vw] md:pb-0 pb-[5vh] space-y-2 relative">
                         <h2 className="font-thasadith xxs:text-[2vh] text-[1.8vh] tracking-[0.5px] opacity-80">but let&apos;s bring ourselves back down to earth.</h2>
-                        <h1 className="font-rasfire uppercase xl:text-[7vh] xs:text-[6vh] xxs:text-[5.5vh] text-[3.5vh] leading-none opacity-90">What&apos;s it Like to work with me?</h1>
+                        <h1 className="font-rasfire uppercase xl:text-[7vh] xs:text-[6vh] xxs:text-[5.5vh] text-[4.5vh] leading-none opacity-90">What&apos;s it Like to work with me?</h1>
                     </div>
                 </div>
                 <div className="sm:flex sm:place-content-between lm:mt-[10vh] sm:space-y-0 space-y-8 sm:px-0 px-[2vw]">
