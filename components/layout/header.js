@@ -11,7 +11,7 @@ function Header() {
 
     return (
         <nav className="md:px-[8vw] pt-[8vh] pb-[15vh] grid grid-cols-6 text-base bg-gradient-to-b md:from-grey-brown from-[#E0D7CE] md:text-off-white text-almost-black z-50 absolute w-screen">
-            <h1 className="font-rasfire text-[3vh] tracking-[0.8px] font-medium pl-[8vw] lg:pl-[2vw]">
+            <h1 className="font-rasfire text-[3vh] tracking-[0.8px] font-medium pl-[8vw] md:pl-[2vw]">
                 <Link href="/">
                     madel.
                 </Link>
@@ -40,7 +40,7 @@ function Header() {
                         ? 'active'
                         : 'inactive'
                 }>
-                    <Link href="/">
+                    <Link href="/contact">
                         contact
                     </Link>
                 </h2>

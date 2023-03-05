@@ -32,15 +32,15 @@ body {
 }
 
 .about-pitch-div {
-  @apply w-[22vw] text-off-white;
+  @apply lm:w-[22vw] sm:w-[25vw] text-off-white;
 }
 
 .about-pitch-num {
-  @apply font-rasfire text-[8vh];
+  @apply font-rasfire xs:text-[8vh] text-[7vh];
 }
 
 .about-pitch-p {
-  @apply font-thasadith text-[2vh] tracking-[0.4px];
+  @apply font-thasadith lg:text-[2vh] xs:text-[1.8vh] text-[1.6vh] tracking-[0.4px];
 }
 
 .portfolio-item {
@@ -69,4 +69,8 @@ body {
 
 .cta-contact {
   @apply flex sm:gap-2 gap-1 font-thin tracking-[0.5px] sm:text-[1.6vh] text-[1.5vh];
+}
+
+.contact-textbox {
+  @apply w-[40vw] p-[1em] rounded-2xl font-thasadith tracking-[1px] text-[2vh];
 }

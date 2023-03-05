@@ -13,9 +13,11 @@ function CTA() {
             <div className="lm:h-[80vh] h-[70vh] flex justify-center">
                 <div className="m-auto text-center">
                     <h1 className="font-rasfire lm:text-[16vh] sm:text-[12vh] xs:text-[10vh] xxs:text-[8vh] text-[5vh] uppercase text-dirt-brown">Let's Talk.</h1>
-                    <button className="font-thasadith uppercase bg-[#F5F5F5] md:px-[3vw] sm:px-[5vw] xs:px-[8vw] xxs:px-[10vw] px-[20vw] py-[1.5vh] rounded-full text-almost-black tracking-[0.5px] xs:text-[1.8vh] text-[1.6vh] lm:mt-0 sm:-mt-[8vh] xxs:-mt-[10vh]">
-                        <h2>Get in Touch</h2>
-                    </button>
+                    <Link href="/contact">
+                        <button className="font-thasadith uppercase bg-[#F5F5F5] md:px-[3vw] sm:px-[5vw] xs:px-[8vw] xxs:px-[10vw] px-[20vw] py-[1.5vh] rounded-full text-almost-black tracking-[0.5px] xs:text-[1.8vh] text-[1.6vh] lm:mt-0 sm:-mt-[8vh] xxs:-mt-[10vh]">
+                            <h2>Get in Touch</h2>
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div className="flex sm:hidden items-center left-0 bottom-0 absolute">
