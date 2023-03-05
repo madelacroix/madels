@@ -7,14 +7,14 @@ function Hero() {
         <div>
             <div className="grid sm:grid-cols-2 xxl:pt-[18vh] sm:pt-[15vh] pt-[20vh]">
                 <Image src={Piano} width={620} height={725} alt="image" className="rounded-3xl sm:block hidden"/>
-                <div className="font-rasfire md:text-[14vh] lm:text-[12vh] xxs:text-[10vh] text-[7vh] uppercase m-auto md:-space-y-24 lm:-space-y-20 xxs:-space-y-16 -space-y-10 tracking-[2px] text-dirt-brown">
+                <div className="font-rasfire md:text-[14vh] lm:text-[12vh] xxs:text-[10vh] text-[7vh] uppercase m-auto md:-space-y-20 lm:-space-y-18 xxs:-space-y-14 -space-y-10 tracking-[2px] text-dirt-brown">
                     <h1>Let's</h1>
                     <h1>Talk.</h1>
                 </div>
             </div>
-            <div className="mx-[5vw] my-[8vh] xs:p-[2.5em] py-[2.5em] px-[5vw] border-[1px] border-[#A5998E] rounded-2xl">
+            <div className="mx-[5vw] my-[8vh] xs:p-[2.5em] py-[2.5em] px-[5vw] border-[1px] border-[#A5998E] xxs:rounded-2xl rounded-xl">
                 <div className="text-center text-almost-black">
-                    <div className="font-rasfire sm:text-[5.5vh] xs:text-[5vh] xxs:text-[4.5vh] text-[3.5vh] xs:-space-y-10 xxs:-space-y-8 -space-y-5">
+                    <div className="font-rasfire sm:text-[5.5vh] xs:text-[5vh] xxs:text-[4.5vh] text-[3.5vh] xs:-space-y-8 xxs:-space-y-8 -space-y-5">
                         <h2 className="xxs:ml-[4vw]">i'd love to get</h2>
                         <h2 className="lg:mr-[4vw] md:mr-[6vw] lm:mr-[8vw] sm:mr-[10vw] xxs:mr-[15vw]">to know you!</h2>
                     </div>
@@ -27,9 +27,9 @@ function Hero() {
                         <input type="text" placeholder="Name" className="contact-textbox"/>
                         <input type="text" placeholder="Email" className="contact-textbox"/>
                     </div>
-                    <textarea type="text" placeholder="Message" className="w-full p-[1em] font-thasadith tracking-[1px] xxs:rounded-2xl rounded-md h-[26vh]"/>
+                    <textarea type="text" placeholder="Message" className="w-full p-[1em] font-thasadith tracking-[1px] xs:rounded-2xl rounded-md h-[26vh] xs:text-[2vh] xxs:text-[1.8vh] text-[1.6vh]"/>
                     <Link href="/">
-                        <button className="bg-dusty font-thasadith uppercase tracking-[2px] sm:px-[3vw] xs:px-[8vw] px-[10vw] py-[1.5vh] max-xxs:w-full xxs:text-right text-center xxs:rounded-xl rounded-md text-off-white xs:text-[2vh] text-[1.8vh] mt-[2vh] float-right">
+                        <button className="bg-dusty font-thasadith uppercase tracking-[2px] lm:px-[3vw] xs:px-[8vw] px-[10vw] py-[1.5vh] max-xxs:w-full xxs:text-right text-center xs:rounded-xl rounded-md text-off-white xs:text-[2vh] text-[1.8vh] mt-[2vh] float-right">
                             <h2>Submit</h2>
                         </button>
                     </Link>
