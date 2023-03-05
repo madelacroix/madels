@@ -48,23 +48,23 @@ body {
 }
 
 .project-div {
-  @apply h-[50vh] rounded-3xl px-[5rem] pt-[6rem] space-y-5;
+  @apply lg:h-[50vh] xs:h-[55vh] rounded-3xl xs:px-[5rem] xxs:px-[2rem] px-[1.8rem] xs:pt-[6rem] xxs:py-[10vh] py-[8vh] space-y-5;
 }
 
 .project-div-header {
-  @apply -space-y-4;
+  @apply xs:-space-y-4 -space-y-3;
 }
 
 .project-div-subheading {
-  @apply font-thasadith text-[2vh] uppercase tracking-[1px];
+  @apply font-thasadith xs:text-[2vh] text-[1.6vh] uppercase tracking-[1px];
 }
 
 .project-div-title {
-  @apply font-rasfire text-[6vh] tracking-[1px];
+  @apply font-rasfire xs:text-[6vh] xxs:text-[5vh] text-[4vh] tracking-[1px];
 }
 
 .project-div-p {
-  @apply font-thasadith text-[1.8vh] w-[30vw] space-y-5;
+  @apply font-thasadith xs:text-[1.8vh] text-[1.6vh] xl:w-[30vw] lm:w-[35vw] sm:w-[45vw] space-y-5;
 }
 
 .cta-contact {

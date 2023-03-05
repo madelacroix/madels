@@ -22,7 +22,7 @@ function Hero() {
                 </div>
             </div>
             <div>
-                <Image src={AboutOne} width={585} height={535} alt="image" className="rounded-3xl pr-[2vw]"/>
+                <Image src={AboutOne} width={585} height={535} alt="image" className="rounded-3xl max-xl:pr-[2vw]"/>
             </div>
         </div>
     )
