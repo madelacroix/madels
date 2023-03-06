@@ -3,16 +3,21 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('/public/fonts/Rasfire/OpenType-PS/Rasfire-Light.otf');
 
 @font-face {
   font-family: 'Rasfire';
   font-style: light;
-  src: local(''), url('/public/fonts/Rasfire/OpenType-PS/Rasfire-Light.otf') format('otf');
+  src: url('/fonts/Rasfire/OpenType-PS/Rasfire-Light.otf') format('truetype');
 }
 @font-face {
   font-family: 'Rasfire';
   font-style: medium;
-  src: local(''), url('/public/fonts/Rasfire/OpenType-PS/Rasfire-Medium.otf') format('otf');
+  src: url('/fonts/Rasfire/OpenType-PS/Rasfire-Medium.otf') format('truetype');
+}
+
+html {
+  font-family: 'Rasfire', 'Thasadith';
 }
 
 body {
