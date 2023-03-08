@@ -37,7 +37,7 @@ body {
 }
 
 .about-pitch-div {
-  @apply lm:w-[22vw] sm:w-[25vw] text-off-white;
+  @apply lm:w-[22vw] text-off-white;
 }
 
 .about-pitch-num {
@@ -53,7 +53,7 @@ body {
 }
 
 .project-div {
-  @apply lg:h-[50vh] xs:h-[55vh] rounded-3xl xs:px-[5rem] xxs:px-[2rem] px-[1.8rem] xs:pt-[6rem] xxs:py-[10vh] py-[8vh] space-y-5;
+  @apply lg:h-[50vh] xs:h-[55vh] rounded-3xl xs:px-[5rem] xxs:px-[2rem] px-[1.8rem] xs:pt-[6rem] xxs:py-[10vh] py-[8vh] space-y-2;
 }
 
 .project-div-header {
@@ -69,7 +69,7 @@ body {
 }
 
 .project-div-p {
-  @apply font-thasadith xs:text-[1.8vh] text-[1.6vh] xl:w-[30vw] lm:w-[35vw] sm:w-[45vw] space-y-5;
+  @apply font-thasadith xs:text-[1.8vh] text-[1.6vh] xl:w-[30vw] lm:w-[35vw] sm:w-[45vw] space-y-4;
 }
 
 .cta-contact {
