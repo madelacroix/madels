@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import Head from 'next/head'
+import ScrollToTopButton from '@/components/layout/scroll-to-top'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
       </Head>
       <Component {...pageProps} />
+      <ScrollToTopButton/>
     </div>
   )
 }

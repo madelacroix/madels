@@ -1,5 +1,6 @@
 import Instagram from "../../public/icons/instagram.svg";
 import LinkedIn from "../../public/icons/linkedin.svg";
+import Github from "../../public/icons/github.svg";
 import Link from "next/link";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { XMarkIcon } from "@heroicons/react/20/solid"
@@ -48,7 +49,9 @@ function CTA() {
                         <div id="contact-details" className="font-thasadith bg-[#E0D7CE]">
                             <div className="xs:flex xs:gap-4 xs:space-y-0 space-y-3 mt-[2.2vh]">
                                 <div className="flex pl-[2vw] gap-3">
-                                    <Instagram />
+                                    <Link href="www.vinorepo.com">
+                                        <Instagram />
+                                    </Link>
                                     <LinkedIn />
                                 </div>
                                 <div className="xs:pl-0 pl-[2vw]">
@@ -70,18 +73,27 @@ function CTA() {
             </div>
             <div className="sm:flex hidden left-0 bottom-0 absolute font-thasadith gap-6">
                 <div className="flex pl-[2vw] gap-3">
-                    <Instagram />
-                    <LinkedIn />
+                    <Link href="https://www.instagram.com/mads.git/" target="_blank">
+                        <Instagram />
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/madeldelacruz/" target="_blank">
+                        <LinkedIn />
+                    </Link>
+                    <Link href="https://github.com/madelacroix" target="_blank">
+                        <Github />
+                    </Link>
                 </div>
                 <div>
                     <ul className="flex gap-4">
                         <li className="cta-contact">
                             <span className="font-bold">E:</span>
-                            <Link href="/">madel@fullstacksolutions.io</Link>
+                            <a href="mailto:madel@fullstacksolutions.io">
+                                madel@fullstacksolutions.io
+                            </a>
                         </li>
                         <li className="cta-contact">
                             <span className="font-bold">M:</span>
-                            <Link href="/">(+64) 27-248-3824</Link>
+                            <Link href="tel:+0064-27-248-3824">(+64) 27-248-3824</Link>
                         </li>
                     </ul>
                 </div>
