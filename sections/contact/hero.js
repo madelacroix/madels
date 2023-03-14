@@ -19,7 +19,7 @@ function Hero() {
                         <h2 className="lg:mr-[4vw] md:mr-[6vw] lm:mr-[8vw] sm:mr-[10vw] xxs:mr-[15vw]">to know you!</h2>
                     </div>
                     <p className="md:w-[35vw] sm:w-[45vw] m-auto font-thasadith xs:text-[1.8vh] xxs:text-[1.6vh] text-[1.5vh] tracking-[0.5px]">
-                        Lorem ipsum dolor sit amet consectetur. Egestas leo vitae ullamcorper blandit id. Habitant sed nibh penatibus ipsum nulla ut purus pulvinar nunc.
+                        Whether you're interested in working with me or just curious about who I am or what I do, I always welcome a good conversation!
                     </p>
                 </div>
                 <div className="sm:pt-[5vh] pt-[4vh] pb-[8vh]">

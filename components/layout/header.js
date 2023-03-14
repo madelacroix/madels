@@ -36,11 +36,11 @@ function Header() {
                     </Link>
                 </h2>
                 <h2 className={
-                    router.pathname == "/contact"
+                    router.pathname == "/unfinished"
                         ? 'active'
                         : 'inactive'
                 }>
-                    <Link href="/contact">
+                    <Link href="/unfinished">
                         contact
                     </Link>
                 </h2>
@@ -86,7 +86,7 @@ function Header() {
                                 Projects
                             </Link>
                             <Link
-                                href="/contact"
+                                href="/unfinished"
                                 className="nav-text"
                             >
                                 Contact
