@@ -11,6 +11,35 @@ function Hero() {
                 </div>
                 <div className="font-thasadith xs:text-[1.8vh] xxs:text-[1.6vh] text-[1.5vh] lg:tracking-[0.5px] tracking-[0.3px] md:w-[40vw] space-y-5">
                     <p>
+                        can i interest you in some tea? i have a selection of three: jasmine, peppermint, or oolong. your selection will tell me something about who you are, so choose wisely. anyway, i'm glad you were able to find me! thank you for taking the time out of your day to spend a little bit of time with me in this corner.
+                    </p>
+                    <p>
+                        let's start with an introduction, shall i? my name is Madel dela Cruz, but i go by <span className="font-bold">mads</span> :) i am 23 years old, and i live in the new land of zea-- in a small house, inside a small village under a cloudy mountain with my sister and four cats. i love all things art, design and tech, so i've always got my ear on the ground for new and exciting trends. i wrote my first hello world at the age of 8, and i've dabbled in coding ever since, until i took it seriously in 2021. since then, it's been a very challenging, but very rewarding learning curve.
+                    </p>
+                    <p>
+                        we'll get to what i know in a bit, but for now, i hope you enjoy your stay here, and have fun with all the little bits and bobs i have lying around. i'm sure you'd like to see the rest of this small digital space i call my home! feel free to peruse, and should you have any questions, please don't hesitate to ask. oh, and finish your tea before you leave :)
+                    </p>
+                    <p>
+                        'til we meet again, <br />
+                        mads.
+                    </p>
+                </div>
+            </div>
+            <div className="pr-[2vw] sm:pr-0 m-auto">
+                <Image src={AboutOne} width={585} height={535} alt="image" className="rounded-3xl max-xl:pr-[2vw]" />
+            </div>
+        </div>
+    )
+}
+
+export default Hero;
+
+{/* 
+
+//initial draft for About intro. Gonna shorten it down for corporate *vomit*
+
+<div className="font-thasadith xs:text-[1.8vh] xxs:text-[1.6vh] text-[1.5vh] lg:tracking-[0.5px] tracking-[0.3px] md:w-[40vw] space-y-5">
+                    <p>
                         can i interest you in some tea? i have a selection of three: jasmine, peppermint, or oolong. your selection will tell me something about who you are, so choose wisely. anyway, i'm glad you were able to find me! i'm sure that your journey has been long and tiring, so thank you for stopping by my little sanctuary. it may be small, but i'll tell you all about it.
                     </p>
                     <p>
@@ -27,12 +56,4 @@ function Hero() {
                         mads.
                     </p>
                 </div>
-            </div>
-            <div className="pr-[2vw] sm:pr-0 m-auto">
-                <Image src={AboutOne} width={585} height={535} alt="image" className="rounded-3xl max-xl:pr-[2vw]"/>
-            </div>
-        </div>
-    )
-}
-
-export default Hero;
+*/}

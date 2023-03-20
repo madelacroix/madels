@@ -9,7 +9,7 @@ function Content() {
                 <div className="project-content-div">
                     <h2 className="project-content-title">Summary</h2>
                     <p className="project-content-p">
-                        Lorem ipsum dolor sit amet consectetur. Euismod lorem dignissim maecenas metus nunc mauris aenean erat. Et lectus eget risus in. Massa urna feugiat tellus arcu. At erat suspendisse eget pretium faucibus odio. Diam tempor interdum scelerisque praesent orci turpis. Sed eu tellus est pharetra. Integer facilisi vestibulum nulla leo. Bibendum sed mi eu auctor id.
+                        At its core, VinoRepo is a place for vineyards and wine enthusiasts to connect. It is still very early into its emerging stages, but the vision for this
                     </p>
                 </div>
                 <div className="project-content-div">

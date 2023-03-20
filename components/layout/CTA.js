@@ -2,6 +2,7 @@ import Instagram from "../../public/icons/instagram.svg";
 import LinkedIn from "../../public/icons/linkedin.svg";
 import Github from "../../public/icons/github.svg";
 import Link from "next/link";
+import Iframe from "react-iframe";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { XMarkIcon } from "@heroicons/react/20/solid"
 import { useState } from "react";
@@ -15,7 +16,7 @@ function CTA() {
                 <div className="m-auto text-center">
                     <h1 className="font-rasfire lm:text-[16vh] sm:text-[12vh] xs:text-[10vh] xxs:text-[8vh] text-[5vh] uppercase text-dirt-brown">Let's Talk.</h1>
                     <Link href="/contact">
-                        <button className="font-thasadith uppercase bg-[#F5F5F5] md:px-[3vw] sm:px-[5vw] xs:px-[8vw] xxs:px-[10vw] px-[20vw] py-[1.5vh] rounded-full text-almost-black tracking-[0.5px] xs:text-[1.8vh] text-[1.6vh] lm:mt-0 sm:-mt-[8vh] xxs:-mt-[10vh]">
+                        <button className="font-thasadith uppercase bg-[#F5F5F5] md:px-[3vw] sm:px-[5vw] xs:px-[8vw] xxs:px-[10vw] px-[20vw] py-[1.5vh] rounded-full text-almost-black tracking-[0.5px] xs:text-[1.8vh] text-[1.6vh] lm:mt-0 sm:-mt-[8vh] xxs:-mt-[10vh] hover:bg-white hover:text-dirt-brown hover:drop-shadow-md">
                             <h2>Get in Touch</h2>
                         </button>
                     </Link>
@@ -71,7 +72,7 @@ function CTA() {
                     )}
                 </Transition>
             </div>
-            <div className="sm:flex hidden left-0 bottom-0 absolute font-thasadith gap-6">
+            <div className="sm:flex items-center hidden left-0 bottom-0 absolute font-thasadith gap-6">
                 <div className="flex pl-[2vw] gap-3">
                     <Link href="https://www.instagram.com/mads.git/" target="_blank">
                         <Instagram />
@@ -84,7 +85,7 @@ function CTA() {
                     </Link>
                 </div>
                 <div>
-                    <ul className="flex gap-4">
+                    <ul className="flex gap-4 items-center">
                         <li className="cta-contact">
                             <span className="font-bold">E:</span>
                             <a href="mailto:madel@fullstacksolutions.io">
@@ -94,6 +95,9 @@ function CTA() {
                         <li className="cta-contact">
                             <span className="font-bold">M:</span>
                             <Link href="tel:+0064-27-248-3824">(+64) 27-248-3824</Link>
+                        </li>
+                        <li className="cta-contact bg-dusty px-3 py-2 rounded-md text-off-white tracking-[0.5px] hover:bg-white hover:text-dirt-brown hover:drop-shadow-md">
+                            <a href="/docs/resume.pdf" target="_blank" className="font-bold">CV</a>                            
                         </li>
                     </ul>
                 </div>

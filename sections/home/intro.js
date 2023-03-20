@@ -5,7 +5,7 @@ import IntroTwo from "../../public/img/intro02.png"
 
 function Intro() {
     return (
-        <div className="xs:h-screen h-[70vh]">
+        <div className="h-[140vh] m-auto">
             <div className="flex justify-center">
                 <div className="absolute xs:p-[5rem] xxs:p-[1rem] p-[0.5rem]">
                     <Image src={IntroOne} width={716} height={755} alt="image of madel" />

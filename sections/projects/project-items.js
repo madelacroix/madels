@@ -4,7 +4,7 @@ function ProjectsItems() {
     return (
         <div className="lm:pt-[25vh] pt-[18vh] sm:pb-[10vh] px-[5vw] text-off-white xs:space-y-16 space-y-10">
             <div>
-                <Link href="/unfinished">
+                <Link href="/404">
                     <div className="bg-vinorepo bg-cover bg-fixed project-div">
                         <div className="project-div-header">
                             <h2 className="project-div-subheading">Project One</h2>
@@ -12,7 +12,7 @@ function ProjectsItems() {
                         </div>
                         <div className="project-div-p">
                             <p>
-                                Ever had a fine bottle of wine and wanted to know what it's story was? Each vintage has a story, starting from roots of the crops, all the way to your wineglass. Vinorepo hopes to connect you and that story, making for a more intimate wine drinking experience.
+                                Each vintage has a story, starting from roots of the crops, all the way to your wineglass. Vinorepo hopes to connect you and that story, making for a more intimate wine drinking experience.
                             </p>
                             <p>
                                 In this project, I am in the process of creating a platform for vineyards and wine enthusiasts. I am privileged to be able to work for Kerry and bring his idea to life, as I get to play with different design concepts, integrate some cutting-edge technology and learn more about wine!
@@ -22,7 +22,7 @@ function ProjectsItems() {
                 </Link>
             </div>
             <div>
-                <Link href="/unfinished">
+                <Link href="/404">
                     <div className="bg-neubrandz bg-cover bg-fixed project-div lm:text-right">
                         <div className="project-div-header">
                             <h2 className="project-div-subheading">Project Two</h2>
