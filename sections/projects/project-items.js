@@ -4,7 +4,7 @@ function ProjectsItems() {
     return (
         <div className="lm:pt-[25vh] pt-[18vh] sm:pb-[10vh] px-[5vw] text-off-white xs:space-y-16 space-y-10">
             <div>
-                <Link href="/404">
+                <Link href="/projects/vinorepo">
                     <div className="bg-vinorepo bg-cover bg-fixed project-div">
                         <div className="project-div-header">
                             <h2 className="project-div-subheading">Project One</h2>
@@ -22,7 +22,7 @@ function ProjectsItems() {
                 </Link>
             </div>
             <div>
-                <Link href="/404">
+                <Link href="/projects/neubrandz">
                     <div className="bg-neubrandz bg-cover bg-fixed project-div lm:text-right">
                         <div className="project-div-header">
                             <h2 className="project-div-subheading">Project Two</h2>

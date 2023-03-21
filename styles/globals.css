@@ -77,11 +77,11 @@ body {
 }
 
 .project-content-p {
-  @apply text-[1.8vh] font-thasadith tracking-[0.2px];
+  @apply text-[1.8vh] font-thasadith tracking-[0.2px] space-y-4;
 }
 
 .project-content-div {
-  @apply space-y-3;
+  @apply space-y-5;
 }
 
 .cta-contact {

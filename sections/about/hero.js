@@ -17,7 +17,7 @@ function Hero() {
                         let's start with an introduction, shall i? my name is Madel dela Cruz, but i go by <span className="font-bold">mads</span> :) i am 23 years old, and i live in the new land of zea-- in a small house, inside a small village under a cloudy mountain with my sister and four cats. i love all things art, design and tech, so i've always got my ear on the ground for new and exciting trends. i wrote my first hello world at the age of 8, and i've dabbled in coding ever since, until i took it seriously in 2021. since then, it's been a very challenging, but very rewarding learning curve.
                     </p>
                     <p>
-                        we'll get to what i know in a bit, but for now, i hope you enjoy your stay here, and have fun with all the little bits and bobs i have lying around. i'm sure you'd like to see the rest of this small digital space i call my home! feel free to peruse, and should you have any questions, please don't hesitate to ask. oh, and finish your tea before you leave :)
+                        we'll get to what i know in a bit. but for now, i hope you enjoy your stay here. i'm sure you'd like to see the rest of this small digital space i call my home! feel free to peruse, and should you have any questions, please don't hesitate to ask. oh, and finish your tea before you leave :)
                     </p>
                     <p>
                         'til we meet again, <br />
