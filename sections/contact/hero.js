@@ -1,12 +1,56 @@
 import Image from "next/image"
 import Link from "next/link";
+import { useState } from "react";
 import Piano from "../../public/img/piano.jpg"
+import { Button, Input } from "@chakra-ui/react";
+import { sendContactForm } from "@/lib/api";
+
+const initValues = {
+    name: "",
+    email: "",
+    message: "",
+}
+const initState = { values: initValues, isLoading: false, error: "", success: false }
 
 function Hero() {
+    const [state, setState] = useState(initState)
+
+    const { values, isLoading, error, success } = state;
+
+    const handleChange = ({ target }) => setState((prev) => ({
+        ...prev,
+        values: {
+            ...prev.values,
+            [target.name]: target.value,
+        },
+    }));
+
+    const onSubmit = async () => {
+        setState((prev) => ({
+            ...prev,
+            isLoading: true,
+        }))
+        try {
+            await sendContactForm(values);
+            setState(initState);
+            setState((prev) => ({
+                ...prev,
+                isLoading: false,
+                success: true,
+            }))
+        } catch (error) {
+            setState((prev) => ({
+                ...prev,
+                isLoading: false,
+                error: error.message
+            }))
+        }
+    }
+
     return (
         <div>
             <div className="grid sm:grid-cols-2 xxl:pt-[18vh] sm:pt-[15vh] pt-[20vh]">
-                <Image src={Piano} width={620} height={725} alt="image" className="rounded-3xl sm:block hidden"/>
+                <Image src={Piano} width={620} height={725} alt="image" className="rounded-3xl sm:block hidden" />
                 <div className="font-rasfire md:text-[14vh] lm:text-[12vh] xxs:text-[10vh] text-[7vh] uppercase m-auto md:-space-y-20 lm:-space-y-18 xxs:-space-y-14 -space-y-10 tracking-[2px] text-dirt-brown">
                     <h1>Let's</h1>
                     <h1>Talk.</h1>
@@ -24,15 +68,19 @@ function Hero() {
                 </div>
                 <div className="sm:pt-[5vh] pt-[4vh] pb-[8vh]">
                     <div className="lm:flex justify-between pb-[3vh] lm:space-y-0 space-y-5">
-                        <input type="text" placeholder="Name" className="contact-textbox"/>
-                        <input type="text" placeholder="Email" className="contact-textbox"/>
+                        <Input type="text" name="name" placeholder="Name" className="contact-textbox" value={values.name} onChange={handleChange} />
+                        <input type="text" name="email" placeholder="Email" className="contact-textbox" value={values.email} onChange={handleChange} />
                     </div>
-                    <textarea type="text" placeholder="Message" className="w-full p-[1em] font-thasadith tracking-[1px] xs:rounded-2xl rounded-md h-[26vh] xs:text-[2vh] xxs:text-[1.8vh] text-[1.6vh]"/>
-                    <Link href="/">
-                        <button className="bg-dusty font-thasadith uppercase tracking-[2px] lm:px-[3vw] xs:px-[8vw] px-[10vw] py-[1.5vh] max-xxs:w-full xxs:text-right text-center xs:rounded-xl rounded-md text-off-white xs:text-[2vh] text-[1.8vh] mt-[2vh] float-right">
-                            <h2>Submit</h2>
-                        </button>
-                    </Link>
+                    <textarea type="text" name="message" placeholder="Message" className="w-full p-[1em] font-thasadith tracking-[1px] xs:rounded-2xl rounded-md h-[26vh] xs:text-[2vh] xxs:text-[1.8vh] text-[1.6vh]" value={values.message} onChange={handleChange} />
+                    {error && (
+                        <h1 className="text-red-500 font-thasadith"> {error} </h1>
+                    )}
+                    {success && (
+                        <h1 className="text-green-800 font-thasadith"> That's gone through. Noice. </h1>
+                    )}
+                    <Button className="bg-dusty font-thasadith uppercase tracking-[2px] lm:px-[3vw] xs:px-[8vw] px-[10vw] py-[1.5vh] max-xxs:w-full xxs:text-right text-center xs:rounded-xl rounded-md text-off-white xs:text-[2vh] text-[1.8vh] mt-[2vh] float-right" onClick={onSubmit} isLoading={isLoading}>
+                        <h2>Submit</h2>
+                    </Button>
                 </div>
             </div>
         </div>

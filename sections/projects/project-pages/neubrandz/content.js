@@ -45,7 +45,7 @@ function Content() {
                     <div className="project-content-div pb-[5vh]">
                         <h2 className="project-content-title">What I Enjoyed</h2>
                         <p className="project-content-p">
-                            The team was very easy to work with. I particularly enjoyed learning about the different types of native Filipino fruits and their health benefits. It had never been something I'd known before, so helping out with some of their content creation and copywriting has really encouraged me to increase my knowledge through research. Apart from that, I also realised that I enjoyed writing in general and it's really opened my horizons to some other possibilities or services that I can offer in the future.
+                            The team was very easy to work with. I particularly enjoyed learning about the different types of native Filipino fruits and their health benefits. It had never been something I'd known before, so helping out with some of their content creation and copywriting has really encouraged me to increase my knowledge through research. Apart from that, I also realised that I enjoyed writing in general and it's really opened my horizons to some other possibilities for services that I can potentially offer in the future.
                         </p>
                     </div>
                     <Link href="/404">
