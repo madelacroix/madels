@@ -14,8 +14,18 @@ export default function Home() {
   console.log(router)
 
   if (router.asPath !== "/") {
-    router.push(router.asPath);
+    if (router.asPath === "/api/contact") {
+      router.push("/api/contact")
+    } else {
+      router.push(router.asPath);
+    }    
   }
+
+  // if (router.asPath !== "/") {
+  //     router.push(router.asPath);
+  // }
+
+  console.log(process.env.NODE_ENV);
   
   return (
     <div>

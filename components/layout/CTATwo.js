@@ -7,8 +7,12 @@ function CTATwo() {
         <div className="relative">
             <div className="sm:flex hidden left-0 bottom-0 absolute font-thasadith gap-6">
                 <div className="flex pl-[2vw] gap-3">
-                    <Instagram />
-                    <LinkedIn />
+                    <Link href="https://www.instagram.com/mads.git/" target="_blank">
+                        <Instagram />
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/madeldelacruz/" target="_blank">
+                        <LinkedIn />
+                    </Link>
                 </div>
                 <div>
                     <ul className="flex gap-4">
