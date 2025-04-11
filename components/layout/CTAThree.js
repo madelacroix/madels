@@ -1,7 +1,3 @@
-import Instagram from "../../public/icons/instagram.svg";
-import LinkedIn from "../../public/icons/linkedin.svg";
-import Link from "next/link";
-
 function CTAThree() {
     return (
         <div className="relative">            
