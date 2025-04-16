@@ -11,10 +11,13 @@ function Hero() {
                 </div>
                 <div className="font-thasadith xs:text-[1.8vh] xxs:text-[1.6vh] text-[1.5vh] lg:tracking-[0.5px] tracking-[0.3px] md:w-[40vw] space-y-5">
                     <p>
-                        can i interest you in some tea? i have a selection of three: jasmine, peppermint, or oolong. your selection will tell me something about who you are, so choose wisely. anyway, i'm glad you were able to find me! thank you for taking the time out of your day to spend a little bit of time with me in this corner.
+                        can i interest you in some tea? i have a selection of three: jasmine, peppermint, or oolong. your selection will tell me something about who you are, so choose wisely. anyway, i'm glad you were able to find me! thank you for taking the time out of your day to spend a little bit of time with me.
                     </p>
                     <p>
-                        let's start with an introduction, shall i? my name is Madel dela Cruz, but i go by <span className="font-bold">mads</span> :) i am 23 years old, and i live in the new land of zea-- in a small house, inside a small village under a cloudy mountain with my sister and four cats. i love all things art, design and tech, so i've always got my ear on the ground for new and exciting trends. i wrote my first hello world at the age of 8, and i've dabbled in coding ever since, until i took it seriously in 2021. since then, it's been a very challenging, but very rewarding learning curve.
+                        i don't have much in way of introduction aside from the basics. my name is Madel Morante (used to be dela Cruz before I married my lovely husband), but i go by <span className="font-bold">mads</span> :) i am 25 years old, and i come from the new land of zea-- i lived in a small house, inside a small village under a cloudy mountain with my family and four cats. these days i live within the hustle and bustle of the golden coast across the ditch, but there isn't a moment that goes by where i yearn for the fresh air of home. 
+                    </p>
+                    <p>                     
+                        i am a self-proclaimed artist, a classically taught musician and i have a fondness for melancholy, nostalgia and the mundane. technology has always been my companion growing up, for better or for worse, so i found myself treading on the online path. though i wish i could turn it all off sometimes, i do love tech, so i've always got my ear on the ground for new and exciting trends. i wrote my first hello world at the age of 8, and i've dabbled in coding ever since, until i took it seriously in 2021. since then, it's been a very challenging, but very rewarding learning curve.
                     </p>
                     <p>
                         we'll get to what i know in a bit. but for now, i hope you enjoy your stay here. i'm sure you'd like to see the rest of this small digital space i call my home! feel free to peruse, and should you have any questions, please don't hesitate to ask. oh, and finish your tea before you leave :)

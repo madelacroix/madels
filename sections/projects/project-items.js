@@ -39,6 +39,24 @@ function ProjectsItems() {
                     </div>
                 </Link>
             </div>
+            <div>
+                <Link href="/projects/bobbykurb">
+                    <div className="bg-bobbykurb bg-cover bg-fixed bg-center project-div">
+                        <div className="project-div-header">
+                            <h2 className="project-div-subheading">Project Three</h2>
+                            <h1 className="project-div-title">bobby kurb</h1>
+                        </div>
+                        <div className="project-div-p">
+                            <p>
+                                A tale of self-expression, art and growth. Bobby Kurb creates visually impelling stories that focus on our emotional inner world.
+                            </p>
+                            <p>
+                                In this project, I have the privilege of working with Bobby Kurb, an established New Zealand artist. He explores the ideas of how we interact with the world, and I have thoroughly enjoyed the artistry of emotion through his work.
+                            </p>
+                        </div>
+                    </div>
+                </Link>
+            </div>
         </div>
     )
 }

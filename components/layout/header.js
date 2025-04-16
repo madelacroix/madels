@@ -18,12 +18,12 @@ function Header() {
             </h1>
             <div className="font-thasadith uppercase md:flex md:gap-x-28 hidden text-[1.6vh] tracking-[1.5px]">
                 <h2 className={
-                    router.pathname == "/about"
+                    router.pathname == "/portfolio"
                         ? 'active'
                         : 'inactive'
                 }>
-                    <Link href="/about">
-                        about
+                    <Link href="/portfolio">
+                        portfolio
                     </Link>
                 </h2>
                 <h2 className={
@@ -36,11 +36,20 @@ function Header() {
                     </Link>
                 </h2>
                 <h2 className={
-                    router.pathname == "/404"
+                    router.pathname == "/about"
                         ? 'active'
                         : 'inactive'
                 }>
-                    <Link href="/404">
+                    <Link href="/about">
+                        about
+                    </Link>
+                </h2>
+                <h2 className={
+                    router.pathname == "/contact"
+                        ? 'active'
+                        : 'inactive'
+                }>
+                    <Link href="/contact">
                         contact
                     </Link>
                 </h2>
@@ -74,10 +83,10 @@ function Header() {
                     <div id="mobile-menu" className="md:hidden pt-[2rem] font-dosis text-[2.2vh] tracking-[1px]">
                         <div ref={ref} className="flex flex-col">
                             <Link
-                                href="/about"
+                                href="/portfolio"
                                 className="nav-text"
                             >
-                                About
+                                Portfolio
                             </Link>
                             <Link
                                 href="/projects"
@@ -86,7 +95,13 @@ function Header() {
                                 Projects
                             </Link>
                             <Link
-                                href="/404"
+                                href="/about"
+                                className="nav-text"
+                            >
+                                About
+                            </Link>
+                            <Link
+                                href="/contact"
                                 className="nav-text"
                             >
                                 Contact
