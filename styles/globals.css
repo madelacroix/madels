@@ -36,6 +36,10 @@ body {
   @apply transition ease-in-out hover:-translate-y-1 hover:translate-x-[0.1vw];
 }
 
+.white-button {
+  @apply font-thasadith uppercase bg-[#F5F5F5] md:px-[3vw] sm:px-[5vw] xs:px-[8vw] xxs:px-[10vw] px-[20vw] py-[1.5vh] rounded-full text-almost-black tracking-[0.8px] xs:text-[1.8vh] text-[1.6vh] lm:mt-0 sm:-mt-[8vh] xxs:-mt-[10vh] hover:bg-white hover:text-dirt-brown hover:drop-shadow-md;
+}
+
 .about-pitch-div {
   @apply lm:w-[22vw] text-off-white;
 }

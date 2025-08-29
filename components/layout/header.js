@@ -16,43 +16,43 @@ function Header() {
                     madel.
                 </Link>
             </h1>
-            <div className="font-thasadith uppercase md:flex md:gap-x-28 hidden text-[1.6vh] tracking-[1.5px]">
-                <h2 className={
-                    router.pathname == "/portfolio"
-                        ? 'active'
-                        : 'inactive'
-                }>
-                    <Link href="/portfolio">
-                        portfolio
+            <div className="font-thasadith uppercase md:flex hidden text-[1.6vh] tracking-[1.5px] col-span-3">
+                <div className="md:flex md:gap-x-28">
+                    <h2 className={
+                        router.pathname == "/portfolio"
+                            ? 'active'
+                            : 'inactive'
+                    }>
+                        <Link href="/portfolio">
+                            case studies
+                        </Link>
+                    </h2>
+                    <h2 className={
+                        router.pathname == "/about"
+                            ? 'active'
+                            : 'inactive'
+                    }>
+                        <Link href="/about">
+                            about
+                        </Link>
+                    </h2>
+                    <h2 className={
+                        router.pathname == "/contact"
+                            ? 'active'
+                            : 'inactive'
+                    }>
+                        <Link href="/contact">
+                            contact
+                        </Link>
+                    </h2>
+                </div>
+            </div>
+            <div className="md:col-start-5 md:col-span-2 md:flex md:justify-end hidden">
+                <button className="white-button">
+                    <Link href="/">
+                        work with me
                     </Link>
-                </h2>
-                <h2 className={
-                    router.pathname == "/projects"
-                        ? 'active'
-                        : 'inactive'
-                }>
-                    <Link href="/projects">
-                        projects
-                    </Link>
-                </h2>
-                <h2 className={
-                    router.pathname == "/about"
-                        ? 'active'
-                        : 'inactive'
-                }>
-                    <Link href="/about">
-                        about
-                    </Link>
-                </h2>
-                <h2 className={
-                    router.pathname == "/contact"
-                        ? 'active'
-                        : 'inactive'
-                }>
-                    <Link href="/contact">
-                        contact
-                    </Link>
-                </h2>
+                </button>
             </div>
             <div className="md:hidden flex justify-end -mt-[3vh] col-start-6 pr-[5vw]">
                 <button

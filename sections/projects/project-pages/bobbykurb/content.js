@@ -49,7 +49,7 @@ function Content() {
                         </p>
                     </div>
                     <Link href="https://www.bobbykurb.com" target="_blank">
-                        <button className="font-thasadith uppercase bg-[#F5F5F5] md:px-[3vw] sm:px-[5vw] xs:px-[8vw] xxs:px-[10vw] px-[20vw] py-[1.5vh] rounded-full text-almost-black tracking-[0.8px] xs:text-[1.8vh] text-[1.6vh] lm:mt-0 sm:-mt-[8vh] xxs:-mt-[10vh] float-right hover:bg-almost-black hover:text-white">
+                        <button className="white-button">
                             <h2>View Bobby Kurb's Portfolio</h2>
                         </button>
                     </Link>

@@ -7,7 +7,7 @@ function Hero() {
     return (
         <div className="lm:py-[18vh] py-[15vh] md:py-0">
             <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-orange-400 via-[#E0D7CE] md:bg-none">
-                <div className="z-20 md:absolute text-center mx-auto -mt-[2.2vh] sm:h-screen w-screen grid grid-rows-3">
+                <div className="z-20 md:absolute text-center mx-auto -mt-[2.2vh] sm:h-screen w-screen grid grid-rows-3 overflow-hidden">
                     <div className="row-start-2 font-rasfire md:text-[14vh] lm:text-[12vh] xs:text-[10vh] xxs:text-[8vh] text-[5vh] uppercase lm:-space-y-20 xxs:-space-y-12 -space-y-6 md:mt-0 lm:mt-[2vh] mt-[4vh] ">
                         <h1 className="text-almost-black lg:ml-0 md:ml-[15vw]">Designer,</h1>
                         <h1 className="lm:-ml-[10vw] md:ml-[20vw] md:text-off-white text-[#655784]">Developer</h1>

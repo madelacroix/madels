@@ -5,7 +5,7 @@ function Hero() {
         <div className="bg-bobbykurb bg-cover bg-fixed bg-center pt-[30vh] pb-[10vh] px-[5vw]">
             <h1 className="text-[16vh] font-rasfire m-auto text-off-white text-center opacity-80">bobby kurb</h1>
             <Link href="https://www.bobbykurb.com" target="_blank">
-                <button className="font-thasadith uppercase bg-[#F5F5F5] bg-opacity-50 md:px-[3vw] sm:px-[5vw] xs:px-[8vw] xxs:px-[10vw] px-[20vw] py-[1.5vh] rounded-full text-off-white tracking-[0.8px] xs:text-[1.8vh] text-[1.6vh] lm:mt-0 sm:-mt-[8vh] xxs:-mt-[10vh] float-right hover:bg-opacity-100 hover:text-almost-black">
+                <button className="white-button">
                     <h2>View Site</h2>
                 </button>
             </Link>

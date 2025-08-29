@@ -16,7 +16,7 @@ function CTA() {
                 <div className="m-auto text-center">
                     <h1 className="font-rasfire lm:text-[16vh] sm:text-[12vh] xs:text-[10vh] xxs:text-[8vh] text-[5vh] uppercase text-dirt-brown">Let's Talk.</h1>
                     <Link href="/contact">
-                        <button className="font-thasadith uppercase bg-[#F5F5F5] md:px-[3vw] sm:px-[5vw] xs:px-[8vw] xxs:px-[10vw] px-[20vw] py-[1.5vh] rounded-full text-almost-black tracking-[0.5px] xs:text-[1.8vh] text-[1.6vh] lm:mt-0 sm:-mt-[8vh] xxs:-mt-[10vh] hover:bg-white hover:text-dirt-brown hover:drop-shadow-md">
+                        <button className="white-button">
                             <h2>Get in Touch</h2>
                         </button>
                     </Link>

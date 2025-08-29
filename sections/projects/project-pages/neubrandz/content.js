@@ -49,7 +49,7 @@ function Content() {
                         </p>
                     </div>
                     <Link href="/404">
-                        <button className="font-thasadith uppercase bg-[#F5F5F5] md:px-[3vw] sm:px-[5vw] xs:px-[8vw] xxs:px-[10vw] px-[20vw] py-[1.5vh] rounded-full text-almost-black tracking-[0.8px] xs:text-[1.8vh] text-[1.6vh] lm:mt-0 sm:-mt-[8vh] xxs:-mt-[10vh] float-right">
+                        <button className="white-button float-right">
                             <h2>View Neubrandz</h2>
                         </button>
                     </Link>
